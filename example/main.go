@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/haunt98/color"
+	"github.com/make-go-great/color-go"
 )
 
 func main() {
