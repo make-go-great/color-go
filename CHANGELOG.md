@@ -1,5 +1,15 @@
 # CHANGELOG
 
+## v0.4.1 (2022-07-22)
+
+### Fixed
+
+- fix: correct template msg (2022-07-22)
+
+### Others
+
+- chore(changelog): generate v0.4.0 (2022-07-22)
+
 ## v0.4.0 (2022-07-22)
 
 ### Added
