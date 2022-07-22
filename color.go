@@ -6,7 +6,11 @@ import (
 	"github.com/fatih/color"
 )
 
-const templateErr = "[%s error]: "
+const (
+	templateErr     = "[%s error]: "
+	templateWarning = "[%s warning]: "
+	templateOK      = "[%s ok]: "
+)
 
 var (
 	fmtErr     = color.New(color.FgRed)
@@ -19,11 +23,11 @@ func PrintAppError(app string, msg string) {
 }
 
 func PrintAppWarning(app string, msg string) {
-	printAppColor(app, msg, templateErr, fmtWarning)
+	printAppColor(app, msg, templateWarning, fmtWarning)
 }
 
 func PrintAppOK(app string, msg string) {
-	printAppColor(app, msg, templateErr, fmtOK)
+	printAppColor(app, msg, templateOK, fmtOK)
 }
 
 func printAppColor(app, msg, template string, c *color.Color) {
