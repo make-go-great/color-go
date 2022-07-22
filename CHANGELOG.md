@@ -1,5 +1,21 @@
 # CHANGELOG
 
+## v0.4.0 (2022-07-22)
+
+### Added
+
+- feat: add PrintAppWarning/OK (2022-07-22)
+
+### Others
+
+- chore: update example warning/ok (2022-07-22)
+
+- chore: update README (2021-12-02)
+
+- chore: update gitignore (2021-12-02)
+
+- chore(changelog): generate v0.3.0 (2021-12-02)
+
 ## v0.3.0 (2021-12-02)
 
 ### Others
