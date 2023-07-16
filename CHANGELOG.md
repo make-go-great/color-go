@@ -1,5 +1,19 @@
 # CHANGELOG
 
+## v0.5.0 (2023-07-16)
+
+### Others
+
+- chore: update LICENSE (2023-07-16)
+
+- Merge pull request #2 from make-go-great/dependabot/go_modules/github.com/fatih/color-1.15.0 (2023-07-16)
+
+- chore: update github dependabot (2023-07-16)
+
+- chore: update github action (2023-07-16)
+
+- chore(changelog): generate v0.4.1 (2022-07-22)
+
 ## v0.4.1 (2022-07-22)
 
 ### Fixed
