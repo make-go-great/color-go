@@ -18,19 +18,19 @@ var (
 	fmtOK      = color.New(color.FgGreen)
 )
 
-func PrintAppError(app string, msg string) {
+func PrintAppError(app, msg string) {
 	printAppColor(app, msg, templateErr, fmtErr)
 }
 
-func PrintAppWarning(app string, msg string) {
+func PrintAppWarning(app, msg string) {
 	printAppColor(app, msg, templateWarning, fmtWarning)
 }
 
-func PrintAppOK(app string, msg string) {
+func PrintAppOK(app, msg string) {
 	printAppColor(app, msg, templateOK, fmtOK)
 }
 
 func printAppColor(app, msg, template string, c *color.Color) {
-	c.Printf(template, app)
+	_, _ = c.Printf(template, app)
 	fmt.Println(msg)
 }
