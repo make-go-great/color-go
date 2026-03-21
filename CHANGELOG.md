@@ -1,5 +1,19 @@
 # CHANGELOG
 
+## v0.7.0 (2026-03-21)
+
+### Others
+
+- chore (2025-12-20)
+
+- chore: ubuntu-latest -> ubuntu-slim (2025-12-20)
+
+- chore(changelog): generate v0.6.0 (2025-12-18)
+
+### Build
+
+- build(deps): bump github.com/fatih/color from 1.18.0 to 1.19.0 (#17) (2026-03-21)
+
 ## v0.6.0 (2025-12-18)
 
 ### Others
